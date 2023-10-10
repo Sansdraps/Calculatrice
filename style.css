@@ -15,12 +15,12 @@ body {
 }
 
 .calculatrice {
-  background-color: #2222;
+  background-color: #222222;
   display: flex;
   flex-direction: column;
   padding: 15px;
   border-radius: 5px;
-  box-shadow: 0 5px black;
+  box-shadow: 0 5px #a8a8a8;
 }
 
 .ecran {
@@ -41,4 +41,32 @@ body {
   grid-template-columns: repeat(4, 50px);
   grid-template-rows: repeat(5, 50px);
   grid-gap: 7px;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: #f7f7f7;
+  font-size: 18px;
+  box-shadow: 0 3px #a8a8a8;
+}
+
+button:active {
+  box-shadow: 0 1px #a8a8a8;
+  transform: translateY(2px);
+}
+
+button[data-key="8"] {
+  background-color: orange;
+  font-weight: bold;
+  color: white;
+}
+
+button[data-key="13"] {
+  grid-column: span 2;
+  font-size: 30px;
+  background-color: aquamarine;
+  font-weight: bold;
+
 }
