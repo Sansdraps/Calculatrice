@@ -11,12 +11,16 @@ body {
   justify-content: center;
   align-items: center;
   font-family: sans-serif;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
 }
 
 .calculatrice {
-  background-color: tomato;
+  background-color: #2222;
   display: flex;
   flex-direction: column;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 5px black;
 }
 
 .ecran {
