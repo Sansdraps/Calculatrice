@@ -16,4 +16,4 @@ Calculatrice en HTML / CSS / JS
   
 ## Rendu de la calculatrice
 
-![Calculatrice](/Capture%20d’écran%202023-10-10%20à%2017.35.45.png)
+![Calculatrice](/Rendu%20final.png)
